@@ -17,7 +17,7 @@ Link: https://blog-house-app-sj.surge.sh/
 ### Start Application
 
 * To install all dependencies run this command on your terminal.
-  ### `npm start`
+  ### `npm i`
 
 * You can run the application by typing this command in the terminal.
   ### `npm start`

@@ -1,70 +1,49 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# BlogHouse
 
-## Available Scripts
+The "BlogHouse" is a Blog Post Application using React, Redux and ContextApi. Application displays 
+the list of blog post. Users can add new post, view the details of the blog post, 
+edit the blog post and can delete the blog post as well as Users can like the blog post.
 
-In the project directory, you can run:
+All the states of the blog are managed through Redux and the like state is managed through the ContextApi.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Setup Guide
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Demo
 
-### `npm test`
+Link: https://blog-house-app-sj.surge.sh/
+  
+### Start Application
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* To install all dependencies run this command on your terminal.
+  ### `npm start`
 
-### `npm run build`
+* You can run the application by typing this command in the terminal.
+  ### `npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Open URL "http://localhost:3000" on your browser to view the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Home Page
+[![HomePage.png](https://i.postimg.cc/fL7vp3LZ/HomePage.png)](https://postimg.cc/9RMTqQZN)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Add New Blog
+[![Add-New-Blog.png](https://i.postimg.cc/JhxnFMLv/Add-New-Blog.png)](https://postimg.cc/p99RhNyJ)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Home Page After New Post
+[![Home-Page-After-Adding-Post.png](https://i.postimg.cc/Xqk4rgYh/Home-Page-After-Adding-Post.png)](https://postimg.cc/YL0JVYgf)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Blog Detail Page
+[![Blog-Detail-Page.png](https://i.postimg.cc/Qx7cy9nz/Blog-Detail-Page.png)](https://postimg.cc/MvWccTw0)
 
-## Learn More
+### Edit Blog Page
+[![EditBlog.png](https://i.postimg.cc/2yQn93zv/EditBlog.png)](https://postimg.cc/GTpBHLTh)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Blog Detail Page After Update
+[![Blog-Detail-After-Edit.png](https://i.postimg.cc/D0nSZ6TJ/Blog-Detail-After-Edit.png)](https://postimg.cc/jw3x3zCt)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
